@@ -8,7 +8,7 @@ A modern and responsive portfolio website showcasing my AI/ML projects, technica
 
 ## Live Demo
 
-🔗 **Portfolio Website:** "#"
+🔗 **Portfolio Website:** https://lalita-portfolio.onrender.com
 
 ## About
 
