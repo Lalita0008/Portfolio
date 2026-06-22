@@ -1,5 +1,9 @@
 # Personal Portfolio
 
+
+
+![Portfolio Preview](./portfolio.png)
+
 A modern and responsive portfolio website showcasing my AI/ML projects, technical skills, certifications, and development journey.
 
 ## Live Demo
