@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-background: #000000;
+  --color-secondary: #111111;
+  --color-primaryText: #FFFFFF;
+  --color-secondaryText: #BFBFBF;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-primaryText font-sans overflow-x-hidden;
+    background: linear-gradient(135deg, #000000 0%, #111111 35%, #2A2A2A 70%, #000000 100%);
+    background-attachment: fixed;
+  }
+}
+
+@layer utilities {
+  .text-gradient-silver {
+    background: linear-gradient(90deg, #FFFFFF 0%, #D9D9D9 30%, #A8A8A8 50%, #D9D9D9 70%, #FFFFFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .glass-card {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .hover-glow:hover {
+    box-shadow: 0 0 20px rgba(217, 217, 217, 0.15);
+    border-color: rgba(217, 217, 217, 0.3);
+  }
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-150%) skewX(-20deg); }
+  100% { transform: translateX(150%) skewX(-20deg); }
+}
+
+/* Custom Scrollbar for premium feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #333333;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555555;
+}
