@@ -402,7 +402,7 @@ function App() {
                 <div className="w-full h-full rounded-full p-1.5 bg-gradient-to-br from-white via-gray-400 to-[#111111] shadow-[0_0_30px_rgba(217,217,217,0.3)] group-hover:shadow-[0_0_50px_rgba(217,217,217,0.5)] transition-shadow duration-500 relative z-10">
                   <div className="w-full h-full rounded-full overflow-hidden bg-background relative border-4 border-background">
                     <img 
-                      src="/profile.jpeg" 
+                      src="/profile2.jpg" 
                       alt="Lalita Jhapate" 
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 filter contrast-125 grayscale-[20%]" 
                     />
